@@ -1,0 +1,15 @@
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/bin/Debug/net9.0/Algorithm
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/bin/Debug/net9.0/Algorithm.deps.json
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/bin/Debug/net9.0/Algorithm.runtimeconfig.json
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/bin/Debug/net9.0/Algorithm.dll
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/bin/Debug/net9.0/Algorithm.pdb
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/obj/Debug/net9.0/Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/obj/Debug/net9.0/Algorithm.AssemblyInfoInputs.cache
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/obj/Debug/net9.0/Algorithm.AssemblyInfo.cs
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/obj/Debug/net9.0/Algorithm.csproj.CoreCompileInputs.cache
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/obj/Debug/net9.0/Algorithm.sourcelink.json
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/obj/Debug/net9.0/Algorithm.dll
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/obj/Debug/net9.0/refint/Algorithm.dll
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/obj/Debug/net9.0/Algorithm.pdb
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/obj/Debug/net9.0/Algorithm.genruntimeconfig.cache
+/Users/EdersonDav/Documents/Estudos/Algorithm/algorithmWithC#/Algorithm/obj/Debug/net9.0/ref/Algorithm.dll
