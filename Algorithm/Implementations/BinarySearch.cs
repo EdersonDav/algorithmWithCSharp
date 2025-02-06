@@ -2,7 +2,7 @@ namespace Implementations;
 
 public class BinarySearch{
 
-    public static int Search(int[] listNumbers, int smallest, int largest, int numberToSearch) {
+    public static int Execute(int[] listNumbers, int smallest, int largest, int numberToSearch) {
         if(smallest > largest){
             return -1;
         }
@@ -13,9 +13,9 @@ public class BinarySearch{
         }
 
         if(numberToSearch > listNumbers[mid]){
-            return Search(listNumbers, mid + 1, largest, numberToSearch);
+            return Execute(listNumbers, mid + 1, largest, numberToSearch);
         }else if(numberToSearch < listNumbers[mid]){
-            return Search(listNumbers, smallest, mid -1, numberToSearch);
+            return Execute(listNumbers, smallest, mid -1, numberToSearch);
         }
 
         return -1;

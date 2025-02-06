@@ -1,7 +1,6 @@
 namespace Implementations;
 
 public class SelectSort{
-
     private static int SearchSmallest(List<int> listNumbers) {
         int smallestIndex = 0;
         for(int i = 0; i < listNumbers.Count; i++ ) {
@@ -12,7 +11,7 @@ public class SelectSort{
         return smallestIndex;        
     }
 
-    public static List<int> Sort(List<int> listNumbers) {
+    public static List<int> Execute(List<int> listNumbers) {
         int initialIndex = listNumbers.Count;
         List<int> arraySorted = new(initialIndex);
 
