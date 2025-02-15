@@ -25,4 +25,13 @@ public class Recursion{
         savedMoney+= age * 1000;
         CalSavedMoney(age - 1, savedMoney);
     }
+
+    public static int Sum(List<int> arr){
+        if(arr.Count == 1){ 
+            return arr[0];
+        }
+        int currentNumber = arr[0];
+        arr.RemoveAt(0);
+        return currentNumber + Sum(arr);
+    }
 }

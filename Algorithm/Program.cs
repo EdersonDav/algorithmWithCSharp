@@ -7,7 +7,8 @@ class Program
         //RunBinarySearch();
         //RunSelectSort();
         //RunFibonacci();
-        RunRecursion();
+        //RunRecursion();
+        RunQuickSort();
     }
 
     public static void RunBinarySearch()
@@ -35,7 +36,12 @@ class Program
     {
         //Recursion.InfinityLoop(10);
         //Recursion.RegressiveCount(20);
-        Recursion.CalSavedMoney(1, 0);
+        //Recursion.CalSavedMoney(1, 0);
+        Console.WriteLine(Recursion.Sum([2, 4, 6]));
         
+    }
+
+    public static void RunQuickSort(){
+        Console.WriteLine(string.Join(", ", QuickSort.Execute([10, 33, 9, 2, 34, 55, 76, 4, 1, 3])));
     }
 }
