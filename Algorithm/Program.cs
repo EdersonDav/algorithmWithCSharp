@@ -4,7 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        RunFibonacci();
+        //RunBinarySearch();
+        //RunSelectSort();
+        //RunFibonacci();
+        RunRecursion();
     }
 
     public static void RunBinarySearch()
@@ -26,5 +29,13 @@ class Program
     {
         Console.WriteLine(string.Join(", ", Fibonacci.Execute(25)));
         Console.WriteLine(Fibonacci.GetFibonacciByIndex(25));
+    }
+
+    public static void RunRecursion()
+    {
+        //Recursion.InfinityLoop(10);
+        //Recursion.RegressiveCount(20);
+        Recursion.CalSavedMoney(1, 0);
+        
     }
 }
