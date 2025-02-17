@@ -8,7 +8,8 @@ class Program
         //RunSelectSort();
         //RunFibonacci();
         //RunRecursion();
-        RunQuickSort();
+        //RunQuickSort();
+        RunHash();
     }
 
     public static void RunBinarySearch()
@@ -42,6 +43,15 @@ class Program
     }
 
     public static void RunQuickSort(){
+        // O(n log n)
         Console.WriteLine(string.Join(", ", QuickSort.Execute([10, 33, 9, 2, 34, 55, 76, 4, 1, 3])));
+    }
+
+    public static void RunHash(){
+        //O(1)
+        Hash.RegisterInBook("apple", 1.23);
+        Hash.RegisterInBook("melon", 3.49);
+
+        Console.WriteLine(Hash.GetBook("apple"));
     }
 }
