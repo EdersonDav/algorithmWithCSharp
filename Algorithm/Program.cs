@@ -9,7 +9,8 @@ class Program
         //RunFibonacci();
         //RunRecursion();
         //RunQuickSort();
-        RunHash();
+        //RunHash();
+        RunBreadthFirstSearch();
     }
 
     public static void RunBinarySearch()
@@ -53,5 +54,9 @@ class Program
         Hash.RegisterInBook("melon", 3.49);
 
         Console.WriteLine(Hash.GetBook("apple"));
+    }
+
+    public static void RunBreadthFirstSearch() {
+        Console.WriteLine(BreadthFirstSearch.SearchAMangoSeller());
     }
 }
