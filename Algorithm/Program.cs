@@ -57,6 +57,23 @@ class Program
     }
 
     public static void RunBreadthFirstSearch() {
-        Console.WriteLine(BreadthFirstSearch.SearchAMangoSeller());
+       // Console.WriteLine(BreadthFirstSearch.SearchAMangoSeller());
+        List<List<string>> ways = BreadthFirstSearch.SearchSmallWayStartEnd();
+        Console.WriteLine("Ways:");
+        List<string> smallWay = ways[0];
+        int count = 1;
+        foreach (var way in ways)
+        {
+            if(way.Count < smallWay.Count){
+                smallWay = way;
+            }
+            Console.WriteLine($"{count}º " + string.Join(", ", way));
+            count++;
+
+        }
+
+        Console.WriteLine("Small way:");
+        Console.WriteLine(string.Join(", ", smallWay));
+
     }
 }

@@ -47,4 +47,38 @@ class BreadthFirstSearch
         }
         return seller;
     }
+
+    public static List<List<string>> SearchSmallWayStartEnd(){
+        Dictionary<string, List<string>> map = new()
+        {
+            ["start"] = ["top1", "bottom1"],
+            ["top1"] = ["mid1", "end"],
+            ["bottom1"] = ["mid1", "bottom2"],
+            ["mid1"] = [],
+            ["bottom2"] = ["end"]
+        };
+
+        List<List<string>> listQueue = [["start"]];
+        List<List<string>> ways = [];
+
+        while (listQueue.Count > 0){
+            List<string> path = listQueue[0];
+            listQueue.RemoveAt(0);
+            string node = path.Last();
+
+            if(node == "end"){
+                ways.Add(path);
+                continue;
+            }
+
+            foreach(string neighbor in map[node]){
+                if(!path.Contains(neighbor)){
+                    listQueue.Add([..path, neighbor]);
+                }
+            }
+        }
+
+        return ways;
+
+    }
 }
